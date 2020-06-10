@@ -32,7 +32,7 @@
     "@actions/exec": "1.0.1",
     "@actions/io": "1.0.1",
     "@bahmutov/print-env": "1.2.0",
-    "cache": "github:cypress-io/github-actions-cache#bc821d0",
+    "cache": "github:actions/cache#ff937cc",
     "hasha": "5.1.0",
     "quote": "0.4.0"
   },
