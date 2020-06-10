@@ -939,7 +939,7 @@ const core = __webpack_require__(470)
 const exec = __webpack_require__(986)
 const io = __webpack_require__(1)
 const hasha = __webpack_require__(309)
-const cache = __webpack_require__(534)
+const cache = __webpack_require__(257)
 const fs = __webpack_require__(747)
 const os = __webpack_require__(87)
 const path = __webpack_require__(622)
@@ -1178,6 +1178,14 @@ if (!module.parent) {
 /***/ (function(module) {
 
 module.exports = require("child_process");
+
+/***/ }),
+
+/***/ 257:
+/***/ (function() {
+
+eval("require")("cache/dist/index");
+
 
 /***/ }),
 
@@ -1715,14 +1723,6 @@ function quote(str) {
 module.exports = quote;
 
 return module.exports;});
-
-/***/ }),
-
-/***/ 534:
-/***/ (function() {
-
-eval("require")("cache/lib/index");
-
 
 /***/ }),
 

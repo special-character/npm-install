@@ -6,7 +6,7 @@ const os = require('os')
 const path = require('path')
 const hasha = require('hasha')
 const fs = require('fs')
-const cache = require('cache/lib/index')
+const cache = require('cache/dist/index')
 
 const action = require('../index')
 const utils = action.utils
